@@ -8,7 +8,8 @@ function start(port){
     
     app.use('/api',api)
     
-    app.listen(port, () => {
+    app.listen(port, (_,res) => {
+        res.send('Hello World!')
         console.log(`App listening at http://localhost:${port}`)
     })
     
