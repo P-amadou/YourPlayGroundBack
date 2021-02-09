@@ -7,11 +7,10 @@ function start(port){
     const app = express()
     
     app.use('/api',api)
-    
-    app.listen(port, () => {
-      app.get('/',(_,res)=>{
-        res.send('Hello World!')
-      })  
+    app.use('/',app.get('/', (_, res) => {
+      res.send('Hello World!')}
+      ))
+    app.listen(port, (_,res) => {
         console.log(`App listening at http://localhost:${port}`)
     })
     
