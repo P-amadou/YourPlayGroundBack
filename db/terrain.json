@@ -1,0 +1,144 @@
+[
+    {
+        "coordonnees_gps" : "48.8486766863037, 2.2849312981950667",
+        "nom" : "Art et Culture 15 Tennis",
+        "email" : "tennis@ac15.com",
+        "telephone":"06 23 30 09 41",
+        "siteweb":"https://ac15.com",
+        "description": "L’association Art et Culture 15, de forme juridique « loi 1901 »,  a été créée en 1982 et développe depuis les sports de Tennis et de Badminton .Ses équipes s’entraînent sur de plusieurs terrains dans le 15ème arrondissement de Paris.L’équipe de direction de l’association est assurée par un Président, un vice-Président, un Secrétaire et un Trésorier. L’association ne vit que par les cotisations de ses adhérents et ne perçoit aucune subvention.Les cours donnés des deux disciplines sont enseignés par des moniteurs aux qualifications nationales, de grande expérience et avec une ancienneté dans l’association.Les jeux sont pratiqués sur des courts loués à la ville de Paris sous la responsabilité des gardiens de la ville de Paris et sont entretenus par la « Direction des Sports de Paris ».En prévision des jeux olympique de 2024, certains courts seront améliorés ou rénovés !!",
+        "adresse" : 
+         {
+            "type_voie" : "RUE",
+            "lib_voie" : "GASTON DE CAILLAVET",
+            "num_voie" : "19",
+            "code_postale" : "75015",
+            "ville" : "PARIS"   
+         }
+    },
+    {
+        "coordonnees_gps" : "48.90033422662578, 2.3497266587875627",
+        "nom" : "Centre Sportif des Poissonniers",
+        "telephone":"+33142512468",
+        "siteweb":"https://www.paris.fr/equipements/centre-sportif-des-poissonniers-3148",
+        "adresse" : 
+         {
+            "type_voie" : "RUE",
+            "lib_voie" : "JEAN COCTEAU",
+            "num_voie" : "2",
+            "code_postale" : "75018",
+            "ville" : "PARIS"   
+         }
+        },
+    {
+        "coordonnees_gps" : "48.885176867316495, 2.3537505660200786",
+        "nom" : "Gymnase de la Goutte d'Or",
+        "telephone":"01 42 62 52 16",
+        "siteweb":"https://www.paris.fr/services-et-infos-pratiques/sports-et-loisirs/ou-faire-du-sport/gymnases-et-salles-specialisees-2142",
+        "adresse" : 
+         {
+            "type_voie" : "RUE DE LA",
+            "lib_voie" : "GOUTTE D'OR",
+            "num_voie" : "12",
+            "code_postale" : "75018",
+            "ville" : "PARIS"   
+         }
+    },
+    {
+        "coordonnees_gps" : "48.82914418429061, 2.297949160816629",
+        "nom" : "City Stade - Square Docteur Calmette",
+        "description":"Ce square porte le nom du médecin Albert Calmette (1863-1933), qui découvrit avec Guérin le vaccin anti-tuberculeux du B.C.G.Le promeneur est accueilli par trois nymphes dans une composition en marbre intitulée « Le printemps », de Paul Manaut (1932), ainsi que par un bas-relief en pierre, une « Scène pastorale » de Gilbert Privas (1932), qui encadrent chacun des deux bassins.Des tulipiers de Virginie, des ptérocaryas et des ginkgos bilobas penchent leurs lourdes branches vers le sol de ce petit coin de paradis où les enfants profitent allègrement des nombreuses activités qui leur sont proposées : jeux de ballon, ping-pong, piste à patins, structure à grimper sur un sol souple…",
+        "adresse" : 
+         {
+            "type_voie" : "BOULEVARD",
+            "lib_voie" : "LEFEBVRE",
+            "num_voie" : "72",
+            "code_postale" : "75015",
+            "ville" : "PARIS"  
+         }
+    },
+    {
+        "coordonnees_gps" : "48.821310767815014, 2.3274051688488244",
+        "nom" : "Stade Élisabeth",
+        "telephone":"01 45 40 78 39",
+        "siteweb":"https://www.paris.fr/equipements/centre-sportif-elisabeth-3050",
+        "adresse" : 
+         {
+            "type_voie" : "AVENUE",
+            "lib_voie" : "PAUL APPELL",
+            "num_voie" : "7",
+            "code_postale" : "75014",
+            "ville" : "PARIS"  
+         }
+    },
+    {
+        "coordonnees_gps" : "48.876437048769276, 2.362581608175388",
+        "nom" : "TEP Verdun-Valmy",
+        "telephone":"01 42 05 28 24",
+        "siteweb":"https://www.paris.fr/equipements/terrain-de-sport-verdun-valmy-3173",
+        "description":"Ce terrain de sport n'est pas accessible aux individuels",
+        "adresse" : 
+         {
+            "type_voie" : "VOIE",
+            "lib_voie" : "K/10",
+            "num_voie" : "5",
+            "code_postale" : "75010",
+            "ville" : "PARIS"  
+         }
+    },
+    {
+        "coordonnees_gps" : "48.8929096228362, 2.3973580712119325",
+        "nom" : "Centre Sportif Jules Ladoumègue",
+        "telephone":"01 49 15 08 78",
+        "siteweb":"https://www.paris.fr/equipements/centre-sportif-jules-ladoumegue-3080",
+        "description":"La piste d'athlétisme intérieure est couverte, elle n'est pas accessible aux PMR, ni aux individuels La Salle d’escalade - SAE (Structure Artificielle d’Escalade) à cordes comporte : - une salle de cordes comportant 42 lignes - une salle de blocs.La partie Nord du stade abrite les équipements suivants :-1 gymnase avec tribune (100 places)- 1 salle de danse-1 espace de remise en forme comprenant : - 1 salle de boxe et de gymnastique de 150 m² - 1 dojo - 4 terrains de squash - 1 espace détente- 1 terrain de football en gazon synthétique- 1 terrain de rugby en gazon synthétique- 1 espace sportif polyvalent (TEP) avec traçage- 1 terrain de handball, 2 terrains de basket-ball et 3 terrains de volley-ball- 2 courts de tennis extérieurs : revêtement en béton poreux- 6 terrains de tennis couverts : revêtement en béton poreux",
+        "adresse" : 
+            {
+                "type_voie" : "ROUTE DES",
+                "lib_voie" : "PETITS PONTS",
+                "num_voie" : "35",
+                "code_postale" : "75019",
+                "ville" : "PARIS"   
+            }
+        },
+    {
+        "coordonnees_gps" : "48.89962629155448, 2.364092515916761",
+        "nom" : "Complexe Sportif des Fillettes",
+        "telephone":"0140388050",
+        "siteweb":"https://www.paris.fr/equipements/gymnase-des-fillettes-3146",
+        "adresse" : 
+         {
+            "type_voie" : "BOULEVARD",
+            "lib_voie" : "NEY",
+            "num_voie" : "54",
+            "code_postale" : "75018",
+            "ville" : "PARIS"  
+         }
+    },
+    {
+        "coordonnees_gps" : "48.823084483785415, 2.314008601061844",
+        "nom" : "Skatepark Jules Noël",
+        "siteweb":"https://www.jackspots.fr/2014/10/skatepark-paris-75-jules-noel.html",
+        "adresse" : 
+         {
+            "type_voie" : "AVENUE",
+            "lib_voie" : "MAURICE D'OCAGNE",
+            "num_voie" : "3",
+            "code_postale" : "75014",
+            "ville" : "PARIS"  
+         }
+    },
+    {
+        "coordonnees_gps" : "48.90014257247616, 2.3428760193944296",
+        "nom" : "Stade Bertrand Dauvin",
+        "telephone":"01 44 92 73 32",
+        "siteweb":"https://www.paris.fr/equipements/centre-sportif-bertrand-dauvin-3074",
+        "adresse" : 
+            {
+                "type_voie" : "RUE",
+                "lib_voie" : "RENE BINET",
+                "num_voie" : "12",
+                "code_postale" : "75018",
+                "ville" : "PARIS"  
+            }
+    }
+]
