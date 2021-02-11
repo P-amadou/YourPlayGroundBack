@@ -13,7 +13,25 @@ let myIcon=L.icon({
   iconAnchor:   [22, 94],
   popupAnchor:  [-3, -76]
 })
-
+ /*function getTerrain(){
+  fetch("http://localhost:8000/search").then(res => { 
+   res.json()
+  .then(data => {
+      console.log(data)
+      const listeTerrain=data.foreach((terrains)=>{
+        //  console.log(`Data nom --> ${d.nom}`)
+         return(
+          <div>
+          <p>{terrains.nom}</p>
+          </div>
+         )
+        });
+    })
+  console.log(terrains)
+  
+  })
+}
+*/
 function App(){  
   function MyComponent() {
     const map = useMapEvents({
@@ -49,19 +67,46 @@ function App(){
   // map.locate({
   //     setView: true,
   //   });
-    
+
+
+  
   return (
+
+
+
+
     <div className="App">
+
+    <form action="" method="get" class="form-example">
+      <label>
+            Email :
+            <input type="text" name="email" />
+            Mot de passe :
+            <input type="text" name="pwd" />
+      </label>
+            <input type="submit" value="Valider" />
+    </form>
+
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1>Maps</h1>
       </header>
+
+      <form action = "http://localhost:8000/search" >
+          <label>
+            Recherche :
+            <input type="text" name="nom" />
+          </label>
+          <input type="submit" value="Valider" />
+        </form>
 
       <MapContainer className="map" center={defaultPosition} zoom={defaultZoom} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+
+      
       {/* <Marker position={[51.505, -0.09]} icon={myIcon}>
         <Popup>
           A pretty CSS3 popup. <br /> Easily customizable.
@@ -74,7 +119,6 @@ function App(){
 
     </div>
   );
-  }
-
+}
 
 export default App;
