@@ -1,9 +1,12 @@
-import React , {useState} from 'react';
+import React from 'react';
 // import logo from './logo.svg';
-import './App.css';
-import markerIcon from './map-marker2.png'
-import L from 'leaflet'
-import { MapContainer, TileLayer, Marker, Popup,useMapEvents } from 'react-leaflet'
+import './css/App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Menu from './Menu'
+import Profil from './Profil'
+import Parametre from './Parametre'
+import Dashboard from './Dashboard';
+import Filtre from './Filtre';
 
 const defaultZoom=18;
 const defaultPosition= [0,0]//[46.23,2.20]
@@ -32,37 +35,8 @@ let myIcon=L.icon({
   })
 }
 */
+
 function App(){  
-  function MyComponent() {
-    const map = useMapEvents({
-      click: () => {
-        map.locate()
-      },
-      locationfound: (location) => {
-        console.log('location found:', location)
-      },
-    })
-    return null
-  }
-  function LocationMarker() {
-    const [position, setPosition] = useState(null)
-    const map = useMapEvents({
-      click() {
-        map.locate()
-      },
-      locationfound(e) {
-        setPosition(e.latlng)
-        map.flyTo(e.latlng, map.getZoom())
-      },
-    })
-  
-    return position === null ? null : (
-      <Marker position={position} icon={myIcon}>
-        <Popup>You are here</Popup>
-      </Marker>
-    )
-  }
-  
 
   // map.locate({
   //     setView: true,
@@ -120,6 +94,14 @@ function App(){
       <LocationMarker />
 
       </MapContainer>
+    
+      <Router>
+      <Route path="/" exact component={Dashboard}/>
+      <Route path="/Profil" exact component={Profil}/>
+      <Route path="/Filtre" exact component={Filtre}/>
+      <Route path="/Parametre" exact component={Parametre}/>
+      <Menu />
+      </Router>
 
     </div>
   );
