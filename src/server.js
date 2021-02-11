@@ -7,6 +7,7 @@ const api=require('./routes/api')
 function start(port){
     const app = express()
     app.use(cors())
+    app.use(bodyParser.urlencoded({ extended: false }));
     app.use(bodyParser.json());
     app.use(api)
 
@@ -17,5 +18,5 @@ function start(port){
 }
 
 const { PORT } = process.env
-start(PORT||3000)
+start(PORT||8000)
 

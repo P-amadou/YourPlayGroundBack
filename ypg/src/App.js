@@ -8,6 +8,7 @@ import Parametre from './Parametre'
 import Dashboard from './Dashboard';
 import Filtre from './Filtre';
 import Inscription from './Inscription';
+import Connexion from './Connexion';
 import Recherche from './Recherche';
 
 
@@ -46,6 +47,7 @@ function App(){
       <Route path="/Filtre" exact component={Filtre}/>
       <Route path="/Parametre" exact component={Parametre}/>
       <Route path="/Inscription" exact component={Inscription} />
+      <Route path="/Connexion" exact component={Connexion} />
       <Route path="/Recherche" exact component={Recherche} />
       <Menu />
       </Router>
