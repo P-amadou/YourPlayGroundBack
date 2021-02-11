@@ -53,7 +53,15 @@ function Dashboard(){
         <div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1>Maps</h1>
-      
+        
+        <form action = "http://localhost:8000/search" >
+        <label>
+          Recherche :
+          <input type="text" name="nom" />
+        </label>
+        <input type="submit" value="Valider" />
+      </form>
+
       <MapContainer className="map" center={defaultPosition} zoom={defaultZoom} scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
