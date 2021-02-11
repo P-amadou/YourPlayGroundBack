@@ -77,12 +77,16 @@ function App(){
 
     <div className="App">
 
-    <form action="" method="get" class="form-example">
+    <form action="http://localhost:8000/register" method="POST">
       <label>
+            Pseudo :
+            <input type="text" name="pseudo" />
             Email :
             <input type="text" name="email" />
             Mot de passe :
-            <input type="text" name="pwd" />
+            <input type="password" name="mot_de_passe" />
+            Confirmer le mot de passe : 
+            <input type="password" name="confirmer_mot_de_passe" />
       </label>
             <input type="submit" value="Valider" />
     </form>

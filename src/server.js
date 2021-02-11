@@ -1,11 +1,13 @@
 require('dotenv').config()
 var cors = require('cors')
+var bodyParser = require('body-parser');
 const express = require('express')
 const api=require('./routes/api')
 
 function start(port){
     const app = express()
     app.use(cors())
+    app.use(bodyParser.json());
     app.use(api)
 
     app.listen(port, () => {
