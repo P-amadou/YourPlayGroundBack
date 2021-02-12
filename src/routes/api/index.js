@@ -39,6 +39,19 @@ api.post('/register',(req,res)=>{
   }
 })
 
+api.put('/editEmail',(req,res)=>{
+  let {pseudo}=req.body
+  let {email}=req.body
+      knex('utilisateur').update('email', email ).whereNot(email, email)
+  })
+
+api.put('/editPseudo',(req,res)=>{
+  let {pseudo}=req.body
+  let {email}=req.body
+
+    knex('utilisateur').update('pseudo', pseudo )//.whereNot(email, email)
+  })
+
 
 
 
