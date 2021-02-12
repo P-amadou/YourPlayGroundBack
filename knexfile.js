@@ -1,13 +1,14 @@
+require('dotenv').config()
 module.exports = {
 
   development: {
     client: 'pg',
     connection: {
-      host : 'ygp-back.ckt7e2sr9psq.eu-west-3.rds.amazonaws.com',
-      user : 'postgres',
-      password : 'password',
-      port : '5433',
-      database : 'postgres'
+      host : DB_HOST,
+      user : DB_USER,
+      password : DB_PASSWORD,
+      port : DB_PORT,
+      database : DB_DATABASE
     },
     migrations: {
       directory: __dirname + '/knex/migrations',
