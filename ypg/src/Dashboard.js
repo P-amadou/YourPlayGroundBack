@@ -2,6 +2,8 @@ import React , {useState } from 'react';
 import markerIcon from './img/map-marker2.png'
 import L from 'leaflet'
 import { MapContainer, TileLayer, Marker, Popup,useMapEvents } from 'react-leaflet'
+import { Form,Button,Col,Row,Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const defaultZoom=15;
@@ -53,14 +55,18 @@ function Dashboard(){
         <div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1>Maps</h1>
-        
-        <form action = "http://localhost:8000/search" >
-        <label>
-          Recherche :
-          <input type="text" name="nom" />
-        </label>
-        <input type="submit" value="Valider" />
-      </form>
+        <Container>
+          <Form action = "http://localhost:8000/search">
+            <Row>
+              <Col>
+              <Form.Control type="text"  placeholder="Recherche"/>
+              </Col>
+              <Col>
+                <Button variant = "secondary" type="submit" value="Valider"> Valider </Button> 
+              </Col>
+            </Row>
+          </Form>
+        </Container>
 
       <MapContainer className="map" center={defaultPosition} zoom={defaultZoom} scrollWheelZoom={false}>
       <TileLayer
