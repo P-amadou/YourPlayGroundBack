@@ -152,7 +152,7 @@ class Dashboard extends React.Component{
             return(
               <div>
               {/* <img src={logo} className="App-logo" alt="logo" /> */}
-              <h1>Maps</h1>
+              <h1>Dashboard</h1>
           
             <Container>
             <Form > {/**action ={`http://localhost:8000/search?nom=${nom}`} method="POST" */}
@@ -180,6 +180,7 @@ class Dashboard extends React.Component{
             {/* <MyComponent /> */}
             <LocationMarker />
             </MapContainer>
+            <Menu/>
               </div>
             )
           }else{
@@ -218,6 +219,7 @@ class Dashboard extends React.Component{
             </MapContainer>
             <Recherche />
             {resSearch}
+            <Menu/>
             </div>    
           )
           }

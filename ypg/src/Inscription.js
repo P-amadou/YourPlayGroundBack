@@ -8,6 +8,7 @@ function Inscription(){
     return(
       <div>
 
+      <h1>INSCRIPTION</h1>
       <Form action="http://localhost:8000/register" method="POST">
             <Form.Group>
                   <Form.Label>Pseudo</Form.Label>
@@ -27,7 +28,7 @@ function Inscription(){
             </Form.Group>
             <Button variant = "secondary" type="submit" value="Valider"> S'inscrire </Button>
       </Form>
-            <Link to="/Connexion"><img src={Arrow}/></Link>
+            <Link to="/"><img src={Arrow}/></Link>
       </div>
 
 /*

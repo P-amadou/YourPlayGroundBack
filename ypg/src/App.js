@@ -2,7 +2,6 @@ import React from 'react';
 // import logo from './logo.svg';
 import './css/App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Menu from './Menu'
 import Profil from './Profil'
 import Parametre from './Parametre'
 import Dashboard from './Dashboard';

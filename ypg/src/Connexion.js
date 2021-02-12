@@ -7,6 +7,8 @@ import { Link} from 'react-router-dom'
 
 function Connexion(){
     return(
+          <div>
+            <h1>CONNEXION</h1>
           <Form action="http://localhost:8000/login" method="POST">
                 <Form.Group>
                       <Form.Label>Email</Form.Label>
@@ -17,10 +19,11 @@ function Connexion(){
                       <Form.Control type="password" name="mot_de_passe"/>
                 </Form.Group>
                 
-                <Button variant = "secondary" size="lg" type="submit" value="Valider"> Se connecter </Button>
+                <Link to="/Dashboard"> <Button variant = "secondary" size="lg" type="submit" value="Valider"> Se connecter </Button></Link>
                 <br/><br/>
                 <Link to="/Inscription"><Button variant = "secondary" size="lg"> S'inscrire </Button></Link>
           </Form>
+          </div>
           
     /*<form action="http://localhost:8000/login" method="POST">
     <label>
