@@ -18,7 +18,7 @@ function Profil(){
            <h3>Liste Sports préférés</h3>
             <ul> 
                 <li><input type="text" placeholder="Nom"/><button><img src={Pen}/></button></li><br/>
-                <li><input type="text" pattern="^[0-2]" placeholder="Niveau" min="0" required /><button><img src={Pen}/></button></li>
+                <li><input type="text" pattern="^[0-2]" placeholder="Niveau" min="0" required /><button /*onClick="http://localhost:8000/search"*/><img src={Pen}/></button></li>
             </ul>
             <br/>
            <br/>

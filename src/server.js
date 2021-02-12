@@ -17,5 +17,5 @@ function start(port){
 }
 
 const { PORT } = process.env
-start(PORT||3000)
+start(PORT||8000)
 
