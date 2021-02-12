@@ -2,7 +2,7 @@ require('dotenv').config()
 var cors = require('cors')
 var bodyParser = require('body-parser');
 const express = require('express')
-const api=require('./routes/api/secondIndex')
+const api=require('./routes/api')
 
 function start(port){
     const app = express()
