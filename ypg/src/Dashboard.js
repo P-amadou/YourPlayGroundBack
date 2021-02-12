@@ -7,6 +7,7 @@ import { MapContainer, TileLayer, Marker, Popup,useMapEvents } from 'react-leafl
 import Recherche from './Recherche';
 import { Form,Button,Col,Row,Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from './Menu'
 
 
 const defaultZoom=15;

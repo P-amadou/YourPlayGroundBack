@@ -6,7 +6,7 @@ function Filtre(){
     return(
         <div>
         <Dashboard />
-           <h1> Filtre </h1>
+           {/* <h1> Filtre </h1> */}
         </div>    
     )
 }
