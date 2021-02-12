@@ -4,6 +4,7 @@ import L from 'leaflet'
 import { MapContainer, TileLayer, Marker, Popup,useMapEvents } from 'react-leaflet'
 import { Form,Button,Col,Row,Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from './Menu'
 
 
 const defaultZoom=15;
@@ -82,6 +83,7 @@ function Dashboard(){
       <LocationMarker />
 
       </MapContainer>
+      <Menu />
         </div>    
     )
 }

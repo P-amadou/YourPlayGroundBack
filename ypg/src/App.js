@@ -49,7 +49,6 @@ function App(){
       <Route path="/Inscription" exact component={Inscription} />
       <Route path="/Connexion" exact component={Connexion} />
       <Route path="/Recherche" exact component={Recherche} />
-      <Menu />
       </Router>
     </div>
 
