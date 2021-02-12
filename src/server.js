@@ -7,6 +7,7 @@ const api=require('./routes/api')
 function start(port){
     const app = express()
     app.use(cors())
+    app.use(bodyParser.urlencoded({ extended: false }));
     app.use(bodyParser.json());
     app.use(api)
 

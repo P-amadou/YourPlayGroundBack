@@ -1,9 +1,28 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
-
+import { Form,Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Inscription(){
     return(
+
+      <Form action="http://localhost:8000/register" method="POST">
+            <Form.Group>
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control type="email" name="pseudo"/>
+            </Form.Group>
+            <Form.Group>
+                  <Form.Label>Mot de passe</Form.Label>
+                  <Form.Control type="password" name="email"/>
+            </Form.Group>
+            <Form.Group>
+                  <Form.Label>Confirmer le mot de passe</Form.Label>
+                  <Form.Control type="password" name="confirmer_mot_de_passe"/>
+            </Form.Group>
+            <Button variant = "secondary" type="submit" value="Valider"> S'inscrire </Button>
+      </Form>
+
+/*
     <form action="http://localhost:8000/register" method="POST">
     <label>
           Pseudo :
@@ -17,6 +36,7 @@ function Inscription(){
     </label>
           <input type="submit" value="Valider" />
   </form>
+*/
     )
 }
 
